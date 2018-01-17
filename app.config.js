@@ -3,10 +3,8 @@
 
     angular.module('football').config(angConfig);
 
-    function angConfig($urlRouterProvider, $locationProvider, $qProvider) {
-        // $locationProvider.hashPrefix('');
+    function angConfig($urlRouterProvider) {
         $urlRouterProvider.otherwise('/home');
-        // $qProvider.errorOnUnhandledRejections(false);
     }
 
 })(angular);
