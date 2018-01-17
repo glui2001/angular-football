@@ -1,0 +1,19 @@
+{
+  "name": "angular-football",
+  "version": "1.0.0",
+  "main": "index.html",
+  "dependencies": {
+    "angular": "1.6.4",
+    "angular-bootstrap": "2.5.0",
+    "angular-cookies": "1.6.4",
+    "angular-deferred-bootstrap": "0.1.9",
+    "angular-sanitize": "1.6.4",
+    "angular-translate": "2.11.1",
+    "angular-translate-loader-static-files": "2.11.0",
+    "angular-ui-router": "1.0.4",
+    "bootstrap": "3.3.5",
+    "jquery": "1.11.3",
+    "moment": "2.10.6"
+  }
+}
+
