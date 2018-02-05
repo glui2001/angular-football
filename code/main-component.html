@@ -1,1 +1,24 @@
-<h2>Angular Football</h2>
+<section class="main">
+    <div class="box">
+        <header>
+            <h2>Angular Football</h2>
+
+            <form id="search-form">
+                <div class="form-group">
+                    <input type="text"
+                           placeholder="Search for Competitions by Season"
+                           ng-model="vm.seasonQuery" />
+                    <button class="btn-primary" ng-click="vm.getCompetitionResults()">Search</button>
+                </div>
+            </form>
+        </header>
+        <section>
+            <ul ng-repeat="comp in vm.competitions track by comp.id">
+                <li ui-sref="teams({id: comp.id})">
+                    <p ng-bind="comp.caption"></p>
+                </li>
+            </ul>
+        </section>
+    </div>
+</section>
+

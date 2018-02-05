@@ -14,6 +14,11 @@
                 name: 'home',
                 url : '/home',
                 component : 'mainContainer'
+            })
+            .state({
+                name: 'teams',
+                url : '/teams/:id',
+                component : 'teamContainer'
             });
     }
 

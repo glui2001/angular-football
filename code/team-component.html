@@ -1,0 +1,21 @@
+<section class="main">
+    <div class="box">
+        <header>
+            <h2>Angular Football Teams</h2>
+        </header>
+        <section>
+            <ul ng-repeat="team in vm.teams">
+                <li>
+                    <p ng-bind="team.name"></p>
+                </li>
+            </ul>
+        </section>
+        <footer class="text-center">
+            <button class="btn-primary" ui-sref="home">&laquo; Back to Competitions</button>
+        </footer>
+    </div>
+</section>
+
+
+
+
